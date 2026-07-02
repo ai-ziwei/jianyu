@@ -1,0 +1,16 @@
+<script language="vbscript" > 
+dim aa 
+select case hour(now)
+case 5,6,7,8
+	aa="早晨好！"
+case 9,10
+	aa="上午好！"
+case 11,12
+	aa="中午好！"
+case 13,14,15,16,17
+	aa="下午好！"
+case 18,19,20,21,22,23,24,0,1,2,3,4
+	aa="晚上好！"
+end select
+document.write(aa&"今天天气真好!")
+</script>
